@@ -1,0 +1,144 @@
+body{
+  padding:0;
+  padding:25px;
+  background-color: #111;
+  margin:0;
+  font-family: 'Bona Nova', serif;
+  /* font-family: 'Roboto', sans-serif; */
+  color:#fff;
+}
+
+#header{
+  display:flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #333;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+#header h1{
+  margin: 0;
+  padding: 0;
+}
+
+
+#searchBox{
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.1);
+  display:flex ;
+  flex-direction: row;
+  height:35px;
+  overflow: hidden;
+  width: 38vw;
+
+}
+
+#searchBar{
+  display: flex;
+  color:#fff ;
+  flex:1;
+  background-color: transparent;
+  border: none;
+  padding: 0 15px;
+}
+
+#searchBtn{
+  height:35px;
+  width:35px;
+  display: flex;
+  background-color: #999;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#searchBtn:hover{
+  color:#111;
+  background-color: #fff;
+}
+
+#main{
+  display:flex ;
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-between;
+}
+
+#categories{
+  display:flex ;
+  flex-direction: column;
+  width:300px;
+  border-right: 1px solid #333;
+  gap:15px;
+  padding-right: 50px;
+}
+
+#category{
+  text-transform: capitalize;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.05);
+  padding:20px 15px;
+
+  cursor: pointer;
+}
+
+#category:hover{
+  color:#111;
+  background-color: #fff;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  padding-left: 50px;
+}
+
+#articleCard{
+display: flex;
+text-decoration: none;
+flex-direction: row;
+color:#fff;
+gap:25px;
+}
+
+a{
+  text-decoration: none;
+  color:#fff;
+}
+
+#articleCard :hover{
+  text-decoration: underline;
+  }
+
+#articleCard #txt{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  }
+
+#articleCard img{
+  width: 300px;
+  height:auto;
+  min-height: 200px;
+  background-color: #555;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#articleCard #description{
+  opacity: 0.5;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+h1,h2,h3{
+  margin:0;
+  padding:0;
+}
